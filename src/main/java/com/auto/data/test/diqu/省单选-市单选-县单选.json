@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"state_city_district","source":"CUSTOMER","type":"STRING","backId":-10005,"value":["14,140900000000,140921000000"],"labelUuId":"CUSTOMER-10005","operator":"IN","formatType":"AREA","labelStatus":1,"backData":[{"id":"14,140900000000,140921000000","name":"山西省>忻州市>定襄县"}]}]}],"logic":"AND"}

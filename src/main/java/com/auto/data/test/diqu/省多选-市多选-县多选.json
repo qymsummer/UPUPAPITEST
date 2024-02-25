@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"state_city_district","source":"CUSTOMER","type":"STRING","backId":-10005,"value":["41","52","14"],"labelUuId":"CUSTOMER-10005","operator":"IN","formatType":"AREA","labelStatus":1,"backData":[{"id":"41","name":"河南省"},{"id":"52","name":"贵州省"},{"id":"14","name":"山西省"}]}]}],"logic":"AND"}

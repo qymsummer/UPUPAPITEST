@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"last_plat_code","source":"RFM","type":"STRING","backId":-10011,"value":["TAOBAO","JOS"],"labelUuId":"RFM-10011","operator":"IN","formatType":"PLAT","labelStatus":1,"dim":{"dataType":"STRING","name":"tenant","value":"qiushi6"}}]}],"logic":"AND"}

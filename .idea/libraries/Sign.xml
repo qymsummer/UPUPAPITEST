@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Sign">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../dowload/Sign.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

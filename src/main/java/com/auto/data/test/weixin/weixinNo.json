@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"is_bind_wechat","source":"CUSTOMER","type":"STRING","backId":-10013,"value":["0"],"labelUuId":"CUSTOMER-10013","operator":"IN","formatType":"ENUM_TYPE","labelStatus":1}]}],"logic":"AND"}

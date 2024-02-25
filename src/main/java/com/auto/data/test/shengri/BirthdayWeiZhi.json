@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"birth_month","source":"CUSTOMER","type":"NUMBER","backId":-10002,"value":["unknown"],"labelUuId":"CUSTOMER-10002","operator":"IN","formatType":"ENUM_TYPE","labelStatus":1}]}],"logic":"AND"}

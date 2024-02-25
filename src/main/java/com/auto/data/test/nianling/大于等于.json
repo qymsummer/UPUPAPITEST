@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"birth_year","source":"CUSTOMER","type":"NUMBER","backId":-10003,"value":"20","labelUuId":"CUSTOMER-10003","operator":"GE","formatType":"LONG","labelStatus":1,"backData":{"value":[20],"label":"birth_year","formatType":"LONG"}}]}],"logic":"AND"}

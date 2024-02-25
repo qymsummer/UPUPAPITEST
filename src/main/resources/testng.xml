@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="s" parallel="tests" thread-count="1" preserve-order="true">
+    <test name="s">
+        <parameter name="url" value="https://qa-qiushi6-ccms.shuyun.com/portal/login.html"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.DiQu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.MaiGuoDeDianPu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.MaiGuoDePingTai">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.NianLing">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.ShengRi">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.ShouCiGouMaiDianPu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.ShouCiGouMaiPingTai">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.XingBie">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.XingZuo">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.YouJianLeiXing">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.ZuiHouYiCiGouMaiDianPu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.kehubiaoqian.ZuiHouYiCiGouMaiPingTai">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.GouMaiCiShu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.GouMaiJinE">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.KeHuShengMingZhouQiLeiXing">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.PingJunKeDanJian">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ShouCiGouMaiJinE">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ShouCiGouMaIRiQi">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ZuiHouYiCiGouMaiJianGe">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ZuiJinYiCiGouMaiJinE">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ZuiJinYiNianGouMaiCiShu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ZuiJInYiNianGouMaiJinE">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.rfmbiaoqian.ZuiJinYiNianPingJunKeDanJian">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.huiyuankabiaoqian.DangQianKeYongJiFen">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.huiyuankabiaoqian.DengJiDaoQiShiJian">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.huiyuankabiaoqian.HuiYuanDengJi">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.huiyuankabiaoqian.KaiKaDianPu">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.huiyuankabiaoqian.KaiKaShiJian">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.dingdanxingweichaxun.AnDingDanZhiBiaoChaXun">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.dingdanxingweichaxun.AnGouMaiShangPinChaXun">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.yingxiaochudachaxun.ShiJianYingXiaoChaXun">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+            <class name="com.auto.bvtcase.testcase.hudongxingweichaxun.HuDongChaXun">
+                <methods>
+                    <include name="testGetApi"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--添加测试报告监听器-->
+<!--    <listeners>-->
+<!--        <listener class-name="com.auto.config.ExtentTestNGIReporterListener"></listener>-->
+<!--    </listeners>-->
+</suite>

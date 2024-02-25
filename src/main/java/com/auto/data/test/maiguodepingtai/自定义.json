@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"all_plat_code","source":"RFM","type":"STRING","backId":-10007,"value":["ZDY","ZDYPTTEST","SJYJTEST","MYZDY1","MYZDY"],"labelUuId":"RFM-10007","operator":"IN","formatType":"PLAT","labelStatus":1,"dim":{"dataType":"STRING","name":"tenant","value":"qiushi6"}}]}],"logic":"AND"}

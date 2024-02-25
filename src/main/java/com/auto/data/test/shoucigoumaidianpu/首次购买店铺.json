@@ -1,0 +1,1223 @@
+{
+  "explain": "rule",
+  "group": [
+    {
+      "type": "CUSTOMER",
+      "logic": "AND",
+      "detail": [
+        {
+          "label": "first_uni_shop_id",
+          "source": "RFM",
+          "type": "STRING",
+          "backId": -10010,
+          "value": [
+            "TAOBAO|100008795",
+            "TAOBAO|101134152",
+            "TAOBAO|101813304",
+            "TAOBAO|101813305",
+            "TAOBAO|101854160",
+            "TAOBAO|101877361",
+            "TAOBAO|101881409",
+            "TAOBAO|102301677",
+            "TAOBAO|102417112",
+            "TAOBAO|103179969",
+            "TAOBAO|104350109",
+            "TAOBAO|105018077",
+            "TAOBAO|106878997",
+            "TAOBAO|108313219",
+            "TAOBAO|109497705",
+            "TAOBAO|111020545",
+            "TAOBAO|112900255",
+            "TAOBAO|112948853",
+            "TAOBAO|113642762",
+            "TAOBAO|116476553",
+            "TAOBAO|119220754",
+            "TAOBAO|128787854",
+            "TAOBAO|145841584",
+            "TAOBAO|155703918",
+            "TAOBAO|157263193",
+            "TAOBAO|163107120",
+            "TAOBAO|165823924",
+            "TAOBAO|168183330",
+            "TAOBAO|1733814",
+            "TAOBAO|1733815",
+            "TAOBAO|20199001",
+            "TAOBAO|2020043001",
+            "TAOBAO|2020052101",
+            "TAOBAO|2020052602",
+            "TAOBAO|2020061101",
+            "TAOBAO|2020061103",
+            "TAOBAO|2020061104",
+            "TAOBAO|2020061106",
+            "TAOBAO|2020061107",
+            "TAOBAO|2020061108",
+            "TAOBAO|2020061109",
+            "TAOBAO|2020061110",
+            "TAOBAO|2020061502",
+            "TAOBAO|2020061601",
+            "TAOBAO|2020061603",
+            "TAOBAO|2020061801",
+            "TAOBAO|2020061802",
+            "TAOBAO|20200706002",
+            "TAOBAO|202007070010",
+            "TAOBAO|20200712",
+            "TAOBAO|2020072401",
+            "TAOBAO|202008120002",
+            "TAOBAO|202008120003",
+            "TAOBAO|20210322001",
+            "TAOBAO|20210322002",
+            "TAOBAO|20210326002",
+            "TAOBAO|20210326003",
+            "TAOBAO|2021050601",
+            "TAOBAO|2021050602",
+            "TAOBAO|2021051001",
+            "TAOBAO|2021052001",
+            "TAOBAO|2021052101",
+            "TAOBAO|2021052401",
+            "TAOBAO|2021061101",
+            "TAOBAO|2021061102",
+            "TAOBAO|2021061103",
+            "TAOBAO|2021061501",
+            "TAOBAO|2021061502",
+            "TAOBAO|2021072802",
+            "TAOBAO|20210826002",
+            "TAOBAO|2021082601",
+            "TAOBAO|2021100901",
+            "TAOBAO|20211014001",
+            "TAOBAO|210112001",
+            "TAOBAO|2220393",
+            "TAOBAO|229082026",
+            "TAOBAO|240089601",
+            "TAOBAO|307580074",
+            "TAOBAO|350593208",
+            "TAOBAO|363142507",
+            "TAOBAO|416864765",
+            "TAOBAO|431420647",
+            "TAOBAO|434803164",
+            "TAOBAO|550848368",
+            "TAOBAO|58110088",
+            "TAOBAO|589887953",
+            "TAOBAO|59210658",
+            "TAOBAO|59707722",
+            "TAOBAO|59991203",
+            "TAOBAO|60129786",
+            "TAOBAO|60175418",
+            "TAOBAO|60329764",
+            "TAOBAO|60471419",
+            "TAOBAO|60628842",
+            "TAOBAO|60790435",
+            "TAOBAO|60893922",
+            "TAOBAO|61012409",
+            "TAOBAO|61041851",
+            "TAOBAO|61127277",
+            "TAOBAO|65927470",
+            "TAOBAO|66431452",
+            "TAOBAO|6655443322",
+            "TAOBAO|666111",
+            "TAOBAO|666112",
+            "TAOBAO|666555",
+            "TAOBAO|666660001",
+            "TAOBAO|666660002",
+            "TAOBAO|666660003",
+            "TAOBAO|666660004",
+            "TAOBAO|666660005",
+            "TAOBAO|666660010",
+            "TAOBAO|666808",
+            "TAOBAO|68262563",
+            "TAOBAO|69029026",
+            "TAOBAO|69471491",
+            "TAOBAO|69579526",
+            "TAOBAO|70832438",
+            "TAOBAO|72018676",
+            "TAOBAO|888101"
+          ],
+          "labelUuId": "RFM-10010",
+          "operator": "IN",
+          "formatType": "SHOP",
+          "labelStatus": 1,
+          "dim": {
+            "dataType": "STRING",
+            "name": "tenant",
+            "value": "qiushi6"
+          },
+          "backData": {
+            "shopSelectedList": [
+              {
+                "id": "taobao_100008795",
+                "name": "梵希蔓希蔓专卖店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|100008795"
+              },
+              {
+                "id": "taobao_101134152",
+                "name": "奥康皮具箱包旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|101134152"
+              },
+              {
+                "id": "taobao_101813304",
+                "name": "田田101813304",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|101813304"
+              },
+              {
+                "id": "taobao_101813305",
+                "name": "田田101813305",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|101813305"
+              },
+              {
+                "id": "taobao_101854160",
+                "name": "momoup旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|101854160"
+              },
+              {
+                "id": "taobao_101877361",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|101877361"
+              },
+              {
+                "id": "taobao_101881409",
+                "name": "nivea妮维雅官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|101881409"
+              },
+              {
+                "id": "taobao_102301677",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|102301677"
+              },
+              {
+                "id": "taobao_102417112",
+                "name": "奥康国际官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|102417112"
+              },
+              {
+                "id": "taobao_103179969",
+                "name": "skechers童鞋旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|103179969"
+              },
+              {
+                "id": "taobao_104350109",
+                "name": "tb9209525",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|104350109"
+              },
+              {
+                "id": "taobao_105018077",
+                "name": "皇家宠物食品旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|105018077"
+              },
+              {
+                "id": "taobao_106878997",
+                "name": "数云食堂",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|106878997"
+              },
+              {
+                "id": "taobao_108313219",
+                "name": "大王品牌官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|108313219"
+              },
+              {
+                "id": "taobao_109497705",
+                "name": "skechers男鞋旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|109497705"
+              },
+              {
+                "id": "taobao_111020545",
+                "name": "ur官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|111020545"
+              },
+              {
+                "id": "taobao_112900255",
+                "name": "skechers运动旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|112900255"
+              },
+              {
+                "id": "taobao_112948853",
+                "name": "夏依旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|112948853"
+              },
+              {
+                "id": "taobao_113642762",
+                "name": "milkana百吉福旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|113642762"
+              },
+              {
+                "id": "taobao_116476553",
+                "name": "ltz166",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|116476553"
+              },
+              {
+                "id": "taobao_119220754",
+                "name": "cjhluck",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|119220754"
+              },
+              {
+                "id": "taobao_128787854",
+                "name": "易极优官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|128787854"
+              },
+              {
+                "id": "taobao_145841584",
+                "name": "麦斯威尔旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|145841584"
+              },
+              {
+                "id": "taobao_155703918",
+                "name": "胡田田淘宝品牌店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|155703918"
+              },
+              {
+                "id": "taobao_157263193",
+                "name": "数云食堂",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|157263193"
+              },
+              {
+                "id": "taobao_163107120",
+                "name": "格力高官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|163107120"
+              },
+              {
+                "id": "taobao_165823924",
+                "name": "肯德基会员官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|165823924"
+              },
+              {
+                "id": "taobao_168183330",
+                "name": "tassimo旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|168183330"
+              },
+              {
+                "id": "taobao_1733814",
+                "name": "yyq淘宝自动化",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|1733814"
+              },
+              {
+                "id": "taobao_1733815",
+                "name": "yyq自动化店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|1733815"
+              },
+              {
+                "id": "taobao_20199001",
+                "name": "人群营销测试店铺这个店铺名称是店铺的名字最大值一共三十个字",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20199001"
+              },
+              {
+                "id": "taobao_2020043001",
+                "name": "模板引擎专用测试01",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020043001"
+              },
+              {
+                "id": "taobao_2020052101",
+                "name": "路由模式测试喵喵01",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020052101"
+              },
+              {
+                "id": "taobao_2020052602",
+                "name": "路由等级会员插件01",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020052602"
+              },
+              {
+                "id": "taobao_2020061101",
+                "name": "大民专用测试店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061101"
+              },
+              {
+                "id": "taobao_2020061103",
+                "name": "模板引擎测试专用2",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061103"
+              },
+              {
+                "id": "taobao_2020061104",
+                "name": "模板引擎测试专用5",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061104"
+              },
+              {
+                "id": "taobao_2020061106",
+                "name": "模板引擎测试专用6",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061106"
+              },
+              {
+                "id": "taobao_2020061107",
+                "name": "模板引擎测试专用7",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061107"
+              },
+              {
+                "id": "taobao_2020061108",
+                "name": "模板引擎测试专用8",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061108"
+              },
+              {
+                "id": "taobao_2020061109",
+                "name": "模板引擎测试专用9",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061109"
+              },
+              {
+                "id": "taobao_2020061110",
+                "name": "模板引擎测试专用10",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061110"
+              },
+              {
+                "id": "taobao_2020061502",
+                "name": "模板引擎测试061501",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061502"
+              },
+              {
+                "id": "taobao_2020061601",
+                "name": "test积分计算01",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061601"
+              },
+              {
+                "id": "taobao_2020061603",
+                "name": "姣姣专用卡",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061603"
+              },
+              {
+                "id": "taobao_2020061801",
+                "name": "历史积分处理061801",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061801"
+              },
+              {
+                "id": "taobao_2020061802",
+                "name": "历史数据处理061802",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020061802"
+              },
+              {
+                "id": "taobao_20200706002",
+                "name": "hxh测试店铺002",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20200706002"
+              },
+              {
+                "id": "taobao_202007070010",
+                "name": "封版测试0707010",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|202007070010"
+              },
+              {
+                "id": "taobao_20200712",
+                "name": "json转sql专用店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20200712"
+              },
+              {
+                "id": "taobao_2020072401",
+                "name": "等级规则测试072401",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2020072401"
+              },
+              {
+                "id": "taobao_202008120002",
+                "name": "历史规则清洗081201",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|202008120002"
+              },
+              {
+                "id": "taobao_202008120003",
+                "name": "等级历史规则清洗081203",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|202008120003"
+              },
+              {
+                "id": "taobao_20210322001",
+                "name": "LP3测试店铺0322001",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20210322001"
+              },
+              {
+                "id": "taobao_20210322002",
+                "name": "LP3测试店铺032202",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20210322002"
+              },
+              {
+                "id": "taobao_20210326002",
+                "name": "LP3测试店铺032602",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20210326002"
+              },
+              {
+                "id": "taobao_20210326003",
+                "name": "LP3测试店铺032603",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20210326003"
+              },
+              {
+                "id": "taobao_2021050601",
+                "name": "店铺初始化测试050601",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021050601"
+              },
+              {
+                "id": "taobao_2021050602",
+                "name": "初始化店铺测试050602",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021050602"
+              },
+              {
+                "id": "taobao_2021051001",
+                "name": "店铺初始化测试051001",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021051001"
+              },
+              {
+                "id": "taobao_2021052001",
+                "name": "删卡流程操作测试001",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021052001"
+              },
+              {
+                "id": "taobao_2021052101",
+                "name": "固化删除卡操作测试02",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021052101"
+              },
+              {
+                "id": "taobao_2021052401",
+                "name": "删除店铺测试052401",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021052401"
+              },
+              {
+                "id": "taobao_2021061101",
+                "name": "删除店铺测试061101",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021061101"
+              },
+              {
+                "id": "taobao_2021061102",
+                "name": "删除店铺测试061102",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021061102"
+              },
+              {
+                "id": "taobao_2021061103",
+                "name": "删除店铺测试061103",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021061103"
+              },
+              {
+                "id": "taobao_2021061501",
+                "name": "测试061501",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021061501"
+              },
+              {
+                "id": "taobao_2021061502",
+                "name": "测试061502",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021061502"
+              },
+              {
+                "id": "taobao_2021072802",
+                "name": "淘宝平台测试072802",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021072802"
+              },
+              {
+                "id": "taobao_20210826002",
+                "name": "LP3hxhTestShop02",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20210826002"
+              },
+              {
+                "id": "taobao_2021082601",
+                "name": "lp3hxhTestShop01",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021082601"
+              },
+              {
+                "id": "taobao_2021100901",
+                "name": "测试淘宝店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2021100901"
+              },
+              {
+                "id": "taobao_20211014001",
+                "name": "店铺测试101401",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|20211014001"
+              },
+              {
+                "id": "taobao_210112001",
+                "name": "LP3测试店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|210112001"
+              },
+              {
+                "id": "taobao_2220393",
+                "name": "淘宝会员激活测试店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|2220393"
+              },
+              {
+                "id": "taobao_229082026",
+                "name": "elleair旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|229082026"
+              },
+              {
+                "id": "taobao_240089601",
+                "name": "naturemade海外旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|240089601"
+              },
+              {
+                "id": "taobao_307580074",
+                "name": "斯谷中健天和专卖店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|307580074"
+              },
+              {
+                "id": "taobao_350593208",
+                "name": "tb873757850919",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|350593208"
+              },
+              {
+                "id": "taobao_363142507",
+                "name": "信息未存满",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|363142507"
+              },
+              {
+                "id": "taobao_416864765",
+                "name": "goodgout旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|416864765"
+              },
+              {
+                "id": "taobao_431420647",
+                "name": "安托旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|431420647"
+              },
+              {
+                "id": "taobao_434803164",
+                "name": "hottoys旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|434803164"
+              },
+              {
+                "id": "taobao_550848368",
+                "name": "爱普士宠物食品旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|550848368"
+              },
+              {
+                "id": "taobao_58110088",
+                "name": "奥康鞋业旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|58110088"
+              },
+              {
+                "id": "taobao_589887953",
+                "name": "福来恩宠物用品旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|589887953"
+              },
+              {
+                "id": "taobao_59210658",
+                "name": "康龙鞋旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|59210658"
+              },
+              {
+                "id": "taobao_59707722",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|59707722"
+              },
+              {
+                "id": "taobao_59991203",
+                "name": "迪卡侬旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|59991203"
+              },
+              {
+                "id": "taobao_60129786",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60129786"
+              },
+              {
+                "id": "taobao_60175418",
+                "name": "姿美堂旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60175418"
+              },
+              {
+                "id": "taobao_60329764",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60329764"
+              },
+              {
+                "id": "taobao_60471419",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60471419"
+              },
+              {
+                "id": "taobao_60628842",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60628842"
+              },
+              {
+                "id": "taobao_60790435",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60790435"
+              },
+              {
+                "id": "taobao_60893922",
+                "name": "好想你官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|60893922"
+              },
+              {
+                "id": "taobao_61012409",
+                "name": "会员卡导入测试店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|61012409"
+              },
+              {
+                "id": "taobao_61041851",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|61041851"
+              },
+              {
+                "id": "taobao_61127277",
+                "name": "店铺_mock",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|61127277"
+              },
+              {
+                "id": "taobao_65927470",
+                "name": "tomwalk",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|65927470"
+              },
+              {
+                "id": "taobao_66431452",
+                "name": "华院数云",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|66431452"
+              },
+              {
+                "id": "taobao_6655443322",
+                "name": "fsf测试导入店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|6655443322"
+              },
+              {
+                "id": "taobao_666111",
+                "name": "淘宝001",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666111"
+              },
+              {
+                "id": "taobao_666112",
+                "name": "会员通001",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666112"
+              },
+              {
+                "id": "taobao_666555",
+                "name": "淘宝非会员通账号",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666555"
+              },
+              {
+                "id": "taobao_666660001",
+                "name": "数据平台测试店铺1",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666660001"
+              },
+              {
+                "id": "taobao_666660002",
+                "name": "数据平台组测试店铺2",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666660002"
+              },
+              {
+                "id": "taobao_666660003",
+                "name": "数据平台组测试店铺3",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666660003"
+              },
+              {
+                "id": "taobao_666660004",
+                "name": "数据平台组测试店铺4",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666660004"
+              },
+              {
+                "id": "taobao_666660005",
+                "name": "数据平台组测试店铺5",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666660005"
+              },
+              {
+                "id": "taobao_666660010",
+                "name": "数据平台组测试店铺10",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666660010"
+              },
+              {
+                "id": "taobao_666808",
+                "name": "TB_非会员通",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|666808"
+              },
+              {
+                "id": "taobao_68262563",
+                "name": "胡田田淘宝测试店铺",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|68262563"
+              },
+              {
+                "id": "taobao_69029026",
+                "name": "乐高官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|69029026"
+              },
+              {
+                "id": "taobao_69471491",
+                "name": "skechers官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|69471491"
+              },
+              {
+                "id": "taobao_69579526",
+                "name": "亿滋官方旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|69579526"
+              },
+              {
+                "id": "taobao_70832438",
+                "name": "静韵雅居海专卖店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|70832438"
+              },
+              {
+                "id": "taobao_72018676",
+                "name": "奥康女鞋旗舰店",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|72018676"
+              },
+              {
+                "id": "taobao_888101",
+                "name": "淘宝888101",
+                "channel": "taobao",
+                "type": "",
+                "address": "",
+                "platCode": "TAOBAO",
+                "uniShopId": "TAOBAO|888101"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "logic": "AND"
+}

@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"all_plat_code","source":"RFM","type":"STRING","backId":-10007,"value":["unlimited","TAOBAO","JOS","DD"],"labelUuId":"RFM-10007","operator":"ALL","formatType":"PLAT","labelStatus":1,"dim":{"dataType":"STRING","name":"tenant","value":"anta"}}]}],"logic":"AND"}

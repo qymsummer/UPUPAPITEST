@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"gender","source":"CUSTOMER","type":"STRING","backId":-10001,"value":["unknown"],"labelUuId":"CUSTOMER-10001","operator":"IN","formatType":"ENUM_TYPE","labelStatus":1}]}],"logic":"AND"}

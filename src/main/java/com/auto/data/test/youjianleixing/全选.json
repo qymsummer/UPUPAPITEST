@@ -1,0 +1,1 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"email_suffix","source":"CUSTOMER","type":"STRING","backId":-10006,"value":["unlimited","qq.com","163.com","126.com","gmail.com","sina.com","unknown"],"labelUuId":"CUSTOMER-10006","operator":"ALL","formatType":"ENUM_TYPE","labelStatus":1}]}],"logic":"AND"}

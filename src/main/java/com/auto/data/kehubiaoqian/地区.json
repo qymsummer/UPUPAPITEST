@@ -1,0 +1,2 @@
+{"explain":"rule","group":[{"type":"CUSTOMER","logic":"AND","detail":[{"label":"state_city_district","source":"CUSTOMER","type":"STRING","backId":-10005,"value":["22,220100000000,220103000000"],"labelUuId":"CUSTOMER-10005","operator":"IN","formatType":"AREA","labelStatus":1,"backData":[{"id":"22,220100000000,220103000000","name":"吉林省>长春市>宽城区"}]}]}],"logic":"AND"}
+

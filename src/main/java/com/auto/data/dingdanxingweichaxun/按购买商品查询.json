@@ -1,0 +1,111 @@
+{
+  "explain": "rule",
+  "group": [
+    {
+      "type": "TRADE",
+      "logic": "AND",
+      "detail": [
+        {
+          "label": "created",
+          "source": "ORDER",
+          "type": "DATE",
+          "backSubGroupId": -40003,
+          "backId": -40018,
+          "labelUuId": "TRADE-40018",
+          "value": [
+            {
+              "hour": 0,
+              "minute": 0,
+              "second": 0,
+              "monthDay": 365,
+              "type": 2
+            },
+            {
+              "hour": 23,
+              "minute": 59,
+              "second": 59,
+              "monthDay": 1,
+              "type": 2
+            }
+          ],
+          "operator": "BETWEEN",
+          "formatType": "DATE",
+          "labelStatus": 1,
+          "isRelativeTime": true,
+          "backData": {
+            "operator": "BETWEEN",
+            "labelName": "购买时间",
+            "dateMode": "相对时间",
+            "orderType": "created",
+            "orderTypeList": [
+              {
+                "title": "下单时间",
+                "value": "created"
+              },
+              {
+                "title": "付款时间",
+                "value": "pay_time"
+              }
+            ],
+            "relative": {
+              "dateType": "day",
+              "startTimeType": 1,
+              "endTimeType": 1,
+              "startDate": {
+                "date": null,
+                "monthDay": 365,
+                "time": {
+                  "hour": "00",
+                  "minute": "00",
+                  "second": "00"
+                }
+              },
+              "endDate": {
+                "date": null,
+                "monthDay": 1,
+                "time": {
+                  "hour": "23",
+                  "minute": "59",
+                  "second": "59"
+                }
+              }
+            }
+          }
+        },
+        {
+          "label": "product_id",
+          "source": "ORDER",
+          "type": "STRING",
+          "backSubGroupId": -40003,
+          "backId": -40019,
+          "labelUuId": "TRADE-40018",
+          "value": [],
+          "operator": "ALL",
+          "formatType": "GOODS",
+          "labelStatus": 1
+        },
+        {
+          "label": "discount_fee",
+          "source": "ORDER",
+          "type": "NUMBER",
+          "backSubGroupId": -40003,
+          "backId": -40020,
+          "labelUuId": "TRADE-40018",
+          "value": "10,1000",
+          "operator": "BETWEEN",
+          "formatType": "DOUBLE",
+          "labelStatus": null,
+          "backData": {
+            "value": [
+              10,
+              1000
+            ],
+            "label": "discount_fee",
+            "formatType": "DOUBLE"
+          }
+        }
+      ]
+    }
+  ],
+  "logic": "AND"
+}

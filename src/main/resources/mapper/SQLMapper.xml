@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.course.model">
+
+
+    <select id="ccms_customer_qiushi6" parameterType="String" resultType="String" >
+        select count(distinct labeltype_customer.uni_id) from ccms_customer_qiushi6 as labeltype_customer where ( ( labeltype_customer.gender not in ( 'M','F' ) OR labeltype_customer.gender is null ) ) AND 1=1
+
+    </select>
+
+
+
+</mapper>

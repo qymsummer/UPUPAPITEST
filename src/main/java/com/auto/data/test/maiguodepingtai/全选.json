@@ -1,0 +1,46 @@
+{
+  "explain": "rule",
+  "group": [
+    {
+      "type": "CUSTOMER",
+      "logic": "AND",
+      "detail": [
+        {
+          "label": "all_plat_code",
+          "source": "RFM",
+          "type": "STRING",
+          "backId": -10007,
+          "value": [
+            "unlimited",
+            "TAOBAO",
+            "JOS",
+            "DOUYIN",
+            "YOUZAN",
+            "PDD",
+            "WEIMOB",
+            "MGJ",
+            "SUNING",
+            "DD",
+            "OFFLINE",
+            "MYZDY",
+            "MYZDY1",
+            "SJYJTEST",
+            "ZDYPTTEST",
+            "ZDYPTPRO",
+            "ZDY"
+          ],
+          "labelUuId": "RFM-10007",
+          "operator": "ALL",
+          "formatType": "PLAT",
+          "labelStatus": 1,
+          "dim": {
+            "dataType": "STRING",
+            "name": "tenant",
+            "value": "qiushi6"
+          }
+        }
+      ]
+    }
+  ],
+  "logic": "AND"
+}

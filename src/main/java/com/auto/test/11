@@ -1,0 +1,9 @@
+{
+    "headers": {
+        "Tenant": "qiushi6",
+        "Platform": "TAOBAO",
+        "Event-Date": "1658383680489",
+        "Data-Type": "g_plataccount_uniid_mapping_changelog"
+    },
+    "payload": "{\"s_uni_id\":\"5edbd3d88bf69b8e29d0d18687a9c630\",\"uni_shop_id\":\"TAOBAO|123\",\"shop_id\":\"123\",\"tenant\":\"qiushi6\",\"partner\":\"shuyun\",\"plat_code\":\"TAOBAO\",\"plat_account\":\"~3I4qkYaSUOo1QSdWZHBbGM+VsnHaYtZo1vAPDcEwjog=~1~\",\"g_uni_id\":\"5edbd3d88bf69b8e29d0d18687a9c630\",\"version\":2,\"before_g_uni_id\":\"1edbd3d88bf69b8e29d0d18687a9c630\",\"before_version\":1}"
+}

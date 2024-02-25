@@ -1,0 +1,39 @@
+{
+  "explain": "rule",
+  "group": [
+    {
+      "type": "RFM",
+      "logic": "AND",
+      "detail": [
+        {
+          "label": "customer_type",
+          "source": "RFM",
+          "type": "STRING",
+          "backId": -20003,
+          "value": [
+            "unlimited",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "operator": "ALL",
+          "dim": {
+            "dataType": "STRING",
+            "name": "tenant",
+            "value": "qiushi6"
+          },
+          "labelUuId": "-20003qiushi6",
+          "itemTitle": "全渠道",
+          "formatType": "ENUM_TYPE",
+          "labelStatus": 1,
+          "titleTips": "以平台级RFM（淘宝平台）为例：\n\t\t\t\t1.潜在客户：尚无有效交易的客户\n\t\t\t\t2.新客一次客户：淘宝平台-首次购买时间在1年内 且 最近1年购买次数=1次\n\t\t\t\t3.老客一次客户：淘宝平台-首次购买时间在1年前 且 最近1年购买次数=1次\n\t\t\t\t4.新客复购客户：淘宝平台-首次购买时间在1年内 且 最近1年购买次数≥2次\n\t\t\t\t5.老客复购客户：淘宝平台-首次购买时间在1年前 且 最近1年购买次数≥2次\n\t\t\t\t6.沉默客户：最近1年无有效交易，再往前1年存在有效交易的客户\n\t\t\t\t7.流失客户：淘宝平台-最近一次购买时间在2年前\n\t\t\t\t"
+        }
+      ]
+    }
+  ],
+  "logic": "AND"
+}
