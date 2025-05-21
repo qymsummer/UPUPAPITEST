@@ -23,7 +23,7 @@ public class Login extends BaseCase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @Test
-    public void sss() throws InterruptedException {
+    public void ccc() throws InterruptedException {
 
         Thread.sleep(500);
         Cookie c1 = new Cookie("_ati","9421170488154");
